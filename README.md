@@ -15,7 +15,7 @@ its weights** and often requires heavy experimentation and heuristics.
 
 Good prompts significantly improve the quality and relevance of AI outputs.
 Prompt engineering practitioners recommend that you explicitly set the model’s
-role, result, intent, context and constraints【317733951484133†L44-L65】.  Beyond initial
+role, result, intent, context and constraints.  Beyond initial
 structure, reflective practices such as **reviewing, questioning and tweaking
 prompts** lead to better results.  Asking the model to explain its
 reasoning and critique its own answers encourages an iterative refinement
@@ -119,7 +119,7 @@ The optimisation loop requires two files:
    replying.  For example, you might instruct the model to be empathetic,
    concise and to avoid sensitive topics.  Clearly stating the model’s
    role, desired result, intent, context and constraints helps the model
-   deliver targeted responses【317733951484133†L44-L65】.
+   deliver targeted responses.
 
 Place both files in the working directory or pass their paths via
 command‑line arguments.
