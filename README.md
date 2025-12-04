@@ -9,7 +9,7 @@ ground truth.  The approach is inspired by contemporary prompt engineering
 research, which frames prompt design as an iterative process guided by
 experimentation and heuristics rather than fixed rules.  As Lilian Weng notes,
 prompt engineering is about **steering a model’s behaviour without updating
-its weights** and often requires heavy experimentation and heuristics【179192835280262†L36-L40】.
+its weights** and often requires heavy experimentation and heuristics.
 
 ## Why self‑improve your prompts?
 
@@ -17,9 +17,9 @@ Good prompts significantly improve the quality and relevance of AI outputs.
 Prompt engineering practitioners recommend that you explicitly set the model’s
 role, result, intent, context and constraints【317733951484133†L44-L65】.  Beyond initial
 structure, reflective practices such as **reviewing, questioning and tweaking
-prompts** lead to better results【632455284896158†L23-L29】.  Asking the model to explain its
+prompts** lead to better results.  Asking the model to explain its
 reasoning and critique its own answers encourages an iterative refinement
-process【632455284896158†L59-L69】.  This project automates that process: after each
+process.  This project automates that process: after each
 evaluation, the model itself identifies where its responses deviate from the
 desired output, proposes concrete changes to the prompt, and applies those
 changes through a unified diff.  Over successive iterations the prompt becomes
@@ -180,13 +180,13 @@ plot as a diagnostic tool rather than an absolute benchmark.
 ## Prompt engineering best practices
 
 - **Define the five critical elements** – Role, Result, Intent, Context and
-  Constraint – in your persona description【317733951484133†L44-L65】.  This structure
+  Constraint – in your persona description.  This structure
   clarifies what you expect from the model and narrows its output space.
 - **Iterate with reflection and self‑critique**.  Don’t settle for the first
   answer.  Review, question and tweak your prompt based on where the model
-  falls short【632455284896158†L23-L29】.  Encourage the model to explain its
+  falls short.  Encourage the model to explain its
   reasoning and then critique its own output; this iterative process leads
-  to more thoughtful and accurate results【632455284896158†L59-L69】.
+  to more thoughtful and accurate results.
 - **Measure performance**.  Use objective metrics such as cosine distance or
   Levenshtein ratio to quantify how closely the model’s replies match the
   desired output.  Optimisation without measurement is guesswork.
