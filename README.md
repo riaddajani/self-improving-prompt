@@ -168,7 +168,7 @@ The chart below shows the average cosine distance (lower is better) across
 the best average distance achieved during the run.  You can expect your own
 results to vary depending on your data, persona and model choice.
 
-![Prompt optimisation loss over time](loss_prompt_opt.png)
+![Prompt optimisation loss over time](prompt_opt.png)
 
 In this example the initial prompt achieved an average distance around 0.59.
 After multiple rounds of critique and patching the prompt, the best average
